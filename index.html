@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Novi creates playful 3D printed products for children and parents. Explore our temporary collection while new designs are in development."
+    />
+    <title>Novi | Playful 3D Printed Goods</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="bg-shape bg-shape-1" aria-hidden="true"></div>
+    <div class="bg-shape bg-shape-2" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="#top">NOVI</a>
+        <nav class="nav">
+          <a href="#shop">Shop</a>
+          <a href="#about">About</a>
+          <a href="#updates">Updates</a>
+        </nav>
+        <button class="cart-btn" aria-label="Open cart">
+          Cart <span class="badge">0</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero container">
+        <p class="eyebrow reveal">Small-batch and kid-friendly</p>
+        <div class="logo-stage reveal">
+          <div class="logo-blocks" role="img" aria-label="Novi logo in colorful wood blocks">
+            <span class="logo-cube logo-n"><span class="letter">N</span></span>
+            <span class="logo-cube logo-o"><span class="letter">O</span></span>
+            <span class="logo-cube logo-v"><span class="letter">V</span></span>
+            <span class="logo-cube logo-i"><span class="letter">I</span></span>
+          </div>
+        </div>
+        <h1 class="reveal">
+          Thoughtful 3D printed goods built for imaginative play.
+        </h1>
+        <p class="hero-copy reveal">
+          Novi is currently preparing its launch collection. Until then, explore
+          temporary products and sign up for first access to the full webshop.
+        </p>
+        <div class="hero-actions reveal">
+          <a class="btn btn-primary" href="#shop">Browse Temporary Collection</a>
+          <a class="btn btn-secondary" href="#updates">Get Launch Updates</a>
+        </div>
+      </section>
+
+      <section class="shop container" id="shop">
+        <div class="section-head">
+          <p class="eyebrow">Temporary Collection</p>
+          <h2>Available Now</h2>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <span class="pill">Ages 3+</span>
+            <h3>Stacking Animal Set</h3>
+            <p>
+              Colorful stackable creatures printed from durable PLA for open-ended play.
+            </p>
+            <div class="card-meta">
+              <strong>$24</strong>
+              <button class="btn btn-small add-to-cart">Add</button>
+            </div>
+          </article>
+          <article class="card">
+            <span class="pill">Parent Pick</span>
+            <h3>Desk Cable Clip Trio</h3>
+            <p>
+              Smooth, minimal clips to keep family workspaces organized without hassle.
+            </p>
+            <div class="card-meta">
+              <strong>$12</strong>
+              <button class="btn btn-small add-to-cart">Add</button>
+            </div>
+          </article>
+          <article class="card">
+            <span class="pill">Ages 5+</span>
+            <h3>Name Puzzle Tiles</h3>
+            <p>
+              Personalized letter tiles to practice names, words, and playful storytelling.
+            </p>
+            <div class="card-meta">
+              <strong>$29</strong>
+              <button class="btn btn-small add-to-cart">Add</button>
+            </div>
+          </article>
+          <article class="card">
+            <span class="pill">Family Game</span>
+            <h3>Mini Sorting Trays</h3>
+            <p>
+              Lightweight trays for sorting beads, blocks, and craft pieces together.
+            </p>
+            <div class="card-meta">
+              <strong>$16</strong>
+              <button class="btn btn-small add-to-cart">Add</button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="about container" id="about">
+        <div class="about-copy">
+          <p class="eyebrow">About Novi</p>
+          <h2>Designed with parents. Loved by kids.</h2>
+          <p>
+            Every Novi item focuses on practical joy: playful shapes, safe edges, and colors that feel at home in modern spaces.
+          </p>
+          <p>
+            This is our preview storefront while our signature line is in development.
+          </p>
+        </div>
+        <div class="about-stat">
+          <p class="stat-label">Current launch target</p>
+          <p class="stat-value">Spring 2026</p>
+          <p class="stat-label">Made in small batches</p>
+        </div>
+      </section>
+
+      <section class="updates container" id="updates">
+        <div class="section-head">
+          <p class="eyebrow">Stay in the loop</p>
+          <h2>Get launch emails</h2>
+        </div>
+        <form class="signup-form" action="#" method="post">
+          <label for="email" class="sr-only">Email address</label>
+          <input id="email" name="email" type="email" placeholder="you@email.com" required />
+          <button type="submit" class="btn btn-primary">Notify Me</button>
+        </form>
+        <p class="form-note">No spam. Just product drops and launch timing.</p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>&copy; <span id="year"></span> Novi</p>
+        <p>Playful 3D Printed Goods</p>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
